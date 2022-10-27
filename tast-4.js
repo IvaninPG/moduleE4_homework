@@ -55,11 +55,11 @@ const saw = new AppliancesElectro('Electric saw', 2700, 4000);
 
 console.log(drill);
 console.log(saw);
-console.log(drill.getSpeed());
+drill.getSpeed();
 
-console.log(drill.connectOutlet());
-console.log(drill.consumPower());
-console.log(saw.consumPower());
+drill.connectOutlet();
+drill.consumPower();
+saw.consumPower();
 
 
 console.log(drill);
